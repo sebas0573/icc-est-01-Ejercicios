@@ -17,6 +17,14 @@
    git clone https://github.com/usuario/repositorio.git
    ```
 
+   Para este repositorio en concreto: 
+
+    ```bash
+   git clone https://github.com/PabloT18/icc-estructura-01-ejercicios.git
+   ```
+
+
+
    Este comando copia todo el contenido del repositorio en GitHub a tu computadora local.
 
 ### Cambiar la URL del Repositorio para Subir a Tu Propio Repositorio
