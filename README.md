@@ -22,8 +22,7 @@
     ```bash
    git clone https://github.com/PabloT18/icc-estructura-01-ejercicios.git
    ```
-
-
+   
 
    Este comando copia todo el contenido del repositorio en GitHub a tu computadora local.
 

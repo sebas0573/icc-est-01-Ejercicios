@@ -26,7 +26,11 @@ public class DataStructuresPrep {
      *         Ejemplo: subtractAlgorithm(5, 3) retorna 2.
      */
     public int subtractAlgorithm(int a, int b) {
-        throw new UnsupportedOperationException("Not yet implemented");
+        int c = 0;
+        while (a > (b + c)) {
+            c = c + 1;
+        }
+        return c;
     }
 
     /**
@@ -38,7 +42,11 @@ public class DataStructuresPrep {
      *         Ejemplo: multiplyAlgorithm(5, 3) retorna 15.
      */
     public int multiplyAlgorithm(int a, int b) {
-        throw new UnsupportedOperationException("Not yet implemented");
+        int resultado = 0;
+        for (int i = 0; i < b; i++) {
+            resultado = resultado + a;
+        }
+        return resultado;
     }
 
     /**
@@ -50,7 +58,14 @@ public class DataStructuresPrep {
      *         Ejemplo: divideWAlgorithm(10, 2) retorna 5.
      */
     public int divideWAlgorithm(int dividend, int divisor) {
-        throw new UnsupportedOperationException("Not yet implemented");
+        // int result = dividend;
+        int cont = 0;
+        int residuo = dividend;
+        while (residuo >= divisor) {
+            cont++;
+            residuo = residuo - divisor;
+        }
+        return cont;
     }
 
     /**
@@ -73,7 +88,15 @@ public class DataStructuresPrep {
      *         Ejemplo: getFactorial(5) retorna 120.
      */
     public int getFactorial(int number) {
-        throw new UnsupportedOperationException("Not yet implemented");
+        int fact = 1;
+        for (int i = 2; i <= number; i++) {
+            fact *= i;
+            // fact = fact * i;
+
+            // i++;
+            // i=i+1;
+        }
+        return fact;
     }
 
     /**
