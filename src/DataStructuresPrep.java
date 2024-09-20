@@ -75,15 +75,7 @@ public class DataStructuresPrep {
      *         Ejemplo: getFactorial(5) retorna 120.
      */
     public int getFactorial(int number) {
-        int fact = 1;
-        for (int i = 2; i <= number; i++) {
-            fact *= i;
-            // fact = fact * i;
-
-            // i++;
-            // i=i+1;
-        }
-        return fact;
+        throw new UnsupportedOperationException("Not yet implemented");
     }
 
     /**
