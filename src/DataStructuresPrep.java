@@ -27,7 +27,6 @@ public class DataStructuresPrep {
      */
     public int subtractAlgorithm(int a, int b) {
         throw new UnsupportedOperationException("Not yet implemented");
-
     }
 
     /**

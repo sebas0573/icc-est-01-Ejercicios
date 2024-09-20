@@ -43,8 +43,7 @@ public class App {
          * como
          * parte de mensajes de salida o en lógicas de decisión más complejas.
          */
-        // System.out.println("El resultado de restar 15 - 5 sin usar el operador de
-        // resta es: " + resultado);
+        System.out.println("El resultado de subtractAlgorithm  es: " + resultado);
 
     }
 }
