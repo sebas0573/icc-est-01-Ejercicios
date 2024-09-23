@@ -34,6 +34,13 @@ public class App {
         boolean resultado4 = dataStructuresPrep.isPerfectNumber(6);
         int resultado5 = dataStructuresPrep.getFactorial(6);
 
+        int[] numbers = {1, 5, 3, 6, 8, 2};
+        int resultado6 = dataStructuresPrep.findMaximum(numbers);
+        int resultado7 = dataStructuresPrep.powerAlgorithm(2, 3);
+        boolean resultado8 = dataStructuresPrep.isPrime(5);
+        int resultado9 = dataStructuresPrep.countDigits(12345);
+        
+
 
         /*
          * Imprimir el resultado de la operación.
@@ -54,5 +61,10 @@ public class App {
         System.out.println("El resultado de la division es: " + resultado3);
         System.out.println("El numero es perfecto?: " + resultado4);
         System.out.println("El factorial del numero es: " + resultado5);
+        System.out.println("El número máximo es: " + resultado6); 
+        System.out.println("La potencia es: "+resultado7);
+        System.out.println("El numero es primo?: "+resultado8);
+        System.out.println("El numero de digitos es: "+resultado9);
+
     }
 }

@@ -115,7 +115,14 @@ public class DataStructuresPrep {
      *         Ejemplo: findMaximum(new int[]{1, 5, 3, 6, 8, 2}) retorna 8.
      */
     public int findMaximum(int[] numbers) {
-        throw new UnsupportedOperationException("Not yet implemented");
+        int max = numbers[0];  
+    
+        for (int i = 1; i < numbers.length; i++) {
+            if (numbers[i] > max) {
+                max = numbers[i]; 
+            } 
+        } 
+        return max;  
     }
 
     /**
@@ -127,7 +134,13 @@ public class DataStructuresPrep {
      *         Ejemplo: powerAlgorithm(2, 3) retorna 8.
      */
     public int powerAlgorithm(int base, int exponent) {
-        throw new UnsupportedOperationException("Not yet implemented");
+        int result = 1;
+    
+        for (int i = 0; i < exponent; i++) {
+            result *= base;  
+        }
+    
+        return result;
     }
 
     /**
@@ -138,7 +151,12 @@ public class DataStructuresPrep {
      *         Ejemplo: isPrime(5) retorna true.
      */
     public boolean isPrime(int number) {
-        throw new UnsupportedOperationException("Not yet implemented");
+        for (int i = 2; i <= Math.sqrt(number); i++) {
+            if (number % i == 0) {
+                return false; 
+            }
+        }
+        return true;
     }
 
     /**
@@ -149,6 +167,13 @@ public class DataStructuresPrep {
      *         Ejemplo: countDigits(12345) retorna 5.
      */
     public int countDigits(int number) {
-        throw new UnsupportedOperationException("Not yet implemented");
+        int count = 0;
+    
+        while (number > 0) {
+            number /= 10;  
+            count++;       
+        }
+    
+        return count;
     }
 }
